@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0vw;
+    padding: 0vw;
+}
+
+.navbar {
+    background-color: white !important;
+}
+
+
+
+@media screen and (max-width: 1024.5px) {
+
+    .pantalla {
+        text-align: center; 
+        font-weight: 400;
+        margin-top: 100px; 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .nav-grande {
+        display: none !important;
+    }
+
+    .logo {
+        width: 8vw;
+    }
+    
+    .toggler :hover, .toggler :focus {
+        border: none;
+        box-shadow: none !important;
+        background-color: white;
+    }
+    
+    .toggler {
+        border: none;
+        box-shadow: none !important;
+        background-color: white;
+    }
+    
+    .navbar-toggler-icon {
+        border: none;
+        box-shadow: none;
+        width: 4vw !important;
+    }
+    
+    .btn-close {
+        font-size: 1.5rem;
+        box-shadow: none !important;
+    }
+    
+    .btn-close :hover, .btn-close :focus, .btn-close :active {
+        box-shadow: none !important;
+    }
+
+    .texto {
+        text-align: center;
+        margin-inline: 10px; 
+        margin-top: 30px;
+    }
+    
+    .medio {
+        margin-inline: 25vw !important;
+    }
+
+    .redes {
+        position: relative;
+        bottom: 40vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        margin-right: 2vw;
+    }
+
+    .red {
+        width: 6vw;
+        margin-block: 2vw;
+        z-index: 100 !important;
+    }
+
+    .redf {
+        width: 4vw;
+        margin-right: 1vw;
+    }
+
+    .circle {
+        position:fixed;
+        top: 450px;
+        right: 200px;
+        width: 1000px;
+        height: 1000px;
+        border-radius: 100%;
+        z-index: -1;
+        transition: 0.5s;
+    }
+
+    .carousel-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagen {
+        display: flex;
+        justify-content: center;
+        z-index: 1 !important;
+    }
+
+    .img {
+        width: 50vw;
+    }
+
+    .offcanvas {
+        z-index: 100000 !important;
+    }
+
+    h1 {
+        font-size: 7vw !important;
+    }
+    
+    p {
+        font-size: 4vw !important;
+    }
+
+    #verde, #rosa, #violeta {
+        width: 10vw;
+        height: 15vw !important;
+        background: transparent !important;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+
+    .carousel-indicators {
+        background-color: transparent !important;
+    }
+
+    .pantalla {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4vw;
+    }
+
+    .toggler {
+        display: none;
+    }
+
+    .circle {
+        position: absolute;
+        top: 500px;
+        right: 0px;
+        width: 70vw;
+        height: 80vh;
+        border-top-left-radius: 100%;
+        z-index: -1;
+        transition: 0.5s;
+    }
+
+    .logo {
+        margin: 10px;
+        width: 5vw;
+    }
+
+    .todo {
+        margin-top: 200px;
+        display: flex !important;
+        margin-inline: 7vw;
+        justify-content: end !important;
+    }
+
+    .img {
+        margin-top: 2vw;
+        width: 25vw;
+        margin-left: 200px !important;
+    }
+
+    h1 {
+        font-size: 3vw !important;
+        margin-bottom: 30px !important;
+    }
+
+    p {
+        margin-top: 20px !important;
+        font-size: 1.5vw !important;
+    }
+
+    #verde, #rosa, #violeta {
+        width: 7vw;
+        height: 9vw !important;
+        background: transparent !important;
+    }
+
+    .redes {
+        position: relative;
+        bottom: 26vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        margin-right: 15px;
+        
+    }
+
+    .red {
+        width: 3vw;
+        margin-block: 1vw;
+    }
+
+    .redf {
+        width: 2vw;
+        margin-right: 0.5vw;
+    }
+
+    .link {
+        font-size: 1.2vw;
+    }
+}
