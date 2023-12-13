@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, height=device-height initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/bootstrapCSS/bootstrap.min.css">
+    <script src="js/bootstrapJS/bootstrap.bundle.min.js" defer></script>
+    <title>Starbucks</title>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt="Logo Starbucks"></a>
+            <button style="border: none;" class="toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span style="background-color: white;" class="navbar-toggler-icon"></span>
+            </button>
+            <div style="width: 100vw; height: 100vh; background-color: rgb(231, 231, 231);"
+                class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                    <button type="button" class="btn-close mt-3" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div style="margin: auto; text-align: center;" class="offcanvas-body">
+                    <ul class="navbar-nav justify-content flex-grow-1 pt-5 mt-5">
+                        <li class="nav-item">
+                            <a style="font-size: 4vw; background-color: #007042; border-radius: 5px;"
+                                class="nav-link active mb-4" data-bs-dismiss="offcanvas" aria-current="page"
+                                href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="font-size: 4vw;" class="nav-link mb-4"
+                                href="https://www.starbucks.com.co/menu">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="font-size: 4vw" class="nav-link mb-4"
+                                href="https://www.starbucks.com.co/seccion/novedades">Novedades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="font-size: 4vw" class="nav-link"
+                                href="https://www.starbucks.com.co/stores">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-grande" style="display: flex; justify-content: space-around;">
+                <a id="inicio" class="link" style="text-decoration: none; color: black; margin-inline: 30px; border: solid 0.2vw #007042 !important; padding: 3px 20px; border-radius: 10px;"
+                    href="#">Inicio</a>
+                <a class="link" style="text-decoration: none; color: black; margin-inline: 30px; padding: 3px 20px;"
+                    href="https://www.starbucks.com.co/menu">Menu</a>
+                <a class="link" style="text-decoration: none; color: black; margin-inline: 30px; padding: 3px 20px;"
+                    href="https://www.starbucks.com.co/seccion/novedades">Novedades</a>
+                <a class="link" style="text-decoration: none; color: black; margin-inline: 30px; padding: 3px 20px;"
+                    href="https://www.starbucks.com.co/stores">Contacto</a>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide" style="z-index: 10;">
+        <div class="carousel-indicators fixed-bottom" style="width: 100vw; margin: 0;">
+            <img id="verde" src="img/thumb1.png" style="height: 50px; margin-inline: 20px;" type="button"
+                data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></img>
+            <img id="rosa" src="img/thumb2.png" style="height: 50px;" type="button"
+                data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="active medio"></img>
+            <img id="violeta" src="img/thumb3.png" style="height: 50px; margin-inline: 20px;" type="button"
+                data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="active"></img>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="todo">
+                    <div class="pantalla">
+                        <h1 style="font-weight: 600;">It's not just Coffee <br>It's <span
+                                style="color: #007042; font-weight: 900;"><strong>Starbucks</strong></span></h1>
+                        <p class="texto">Since 1971, it always be about quality. We're passionate about it ethicaly
+                            sourcing only the finest Arabic Coffee beans and roasting them with great care. Our passion
+                            for Coffee is rivaled only by our love for sharing it</p>
+                    </div>
+                    <div class="imagen">
+                        <img class="img" src="img/img1.png" alt="Malteada Verde">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="todo">
+                    <div class="pantalla">
+                        <h1 style="font-weight: 600;">It's not just Coffee <br>It's <span
+                                style="color: #e8728e; font-weight: 900;"><strong>Starbucks</strong></span></h1>
+                        <p class="texto">Since 1971, it always be about quality. We're passionate about it ethicaly
+                            sourcing only the finest Arabic Coffee beans and roasting them with great care. Our passion
+                            for Coffee is rivaled only by our love for sharing it</p>
+                    </div>
+                    <div class="imagen">
+                        <img class="img" src="img/img2.png" alt="Malteada Rosa">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="todo">
+                    <div class="pantalla">
+                        <h1  style="font-weight: 600;">It's not just Coffee <br>It's <span
+                                style="color: #e5448c; font-weight: 900;"><strong>Starbucks</strong></span></h1>
+                        <p class="texto">Since 1971, it always be about quality. We're passionate about it ethicaly
+                            sourcing only the finest Arabic Coffee beans and roasting them with great care. Our passion
+                            for Coffee is rivaled only by our love for sharing it</p>
+                    </div>
+                    <div class="imagen">
+                        <img class="img" src="img/img3.png" alt="Malteada Violeta">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="redes">
+        <a style="z-index: 200;" href="https://www.facebook.com/StarbucksColombia/?locale=es_LA"><img class="red redf" src="img/facebook.png" alt="Facebook"></a>
+        <a style="z-index: 200;" href="https://twitter.com/Starbucks"><img class="red" src="img/twitter.png" alt="Twitter"></a>
+        <a style="z-index: 200;" href="https://www.instagram.com/starbuckscol/?hl=es"><img class="red" src="img/instagram.png" alt="Instagram"></a>
+    </div>
+    <div id="circle" style="background-color: #007042;" class="circle"></div>
+    <script src="js/main.js" defer></script>
+</body>
+
+</html>
